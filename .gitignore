@@ -3,5 +3,5 @@ dist
 .DS_Store
 .idea
 .vscode
-src.crx
-src.pem
+dist.crx
+dist.pem
