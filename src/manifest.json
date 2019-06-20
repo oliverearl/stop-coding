@@ -4,7 +4,7 @@
     "description": "Replaces the word 'coding' with 'programming'.",
     "browser_action": {
         "default_icon": "icon.png",
-        "default_popup": "popup.html"
+        "default_popup": "index.html"
     },
     "version": "1.0.0",
     "content_scripts": 
