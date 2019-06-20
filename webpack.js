@@ -13,7 +13,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     entry: {
-        nocode: "./src/nocode.js",
+        nocode: "./src/js/nocode.js",
     },
     optimization: {
         minimizer: [
@@ -35,8 +35,9 @@ module.exports = {
         }),
         new CopyPlugin([
             {
-                from: './src/icon.png',
-                to: 'icon.png'
+                from: './src/images/*.png',
+                to: './images',
+                flatten: true
             },
             {
                 from: './src/manifest.json',

@@ -3,7 +3,12 @@
     "name": "NoCoding",
     "description": "Replaces the word 'coding' with 'programming'.",
     "browser_action": {
-        "default_icon": "icon.png",
+        "default_icon": {
+            "16": "images/16.png",
+            "32": "images/32.png",
+            "48": "images/48.png",
+            "128": "images/128.png"
+        },
         "default_popup": "index.html"
     },
     "version": "1.0.0",
