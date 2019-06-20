@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "NoCoding",
-    "description": "Replaces the word 'coding' with 'programming'.",
+    "description": "Chrome plugin that replaces 'coding' and similar conjugations with 'programming'.",
     "browser_action": {
         "default_icon": {
             "16": "images/16.png",
