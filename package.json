@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "stop-coding",
+  "version": "1.0.0",
+  "description": "Does the word 'coding' bother you as much as it bothers me? With this plugin, you can automatically replace it with an alternative, either from our recommendations or choose your own!",
+  "main": "nocode.js",
+  "scripts": {},
+  "keywords": [
+    "chrome",
+    "stop-coding",
+    "stopcoding",
+    "nocode",
+    "firefox",
+    "plugin"
+  ],
+  "author": "Oliver Earl",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
