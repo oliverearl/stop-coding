@@ -1,5 +1,5 @@
 "use strict";
-import "../sass/style.scss";
+import "../sass/nocode.scss";
 /**
  * StopCoding JavaScript
  * 
