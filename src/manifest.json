@@ -7,9 +7,10 @@
         "default_popup": "popup.html"
     },
     "version": "1.0.0",
-    "content_scrips": [
+    "content_scripts": 
+    [
         {
-            "matches": "*://*/*",
+            "matches": ["*://*/*"],
             "js": ["nocode.js"],
             "run_at": "document_end"
         }
