@@ -2,8 +2,8 @@
   "private": true,
   "name": "stop-coding",
   "version": "1.0.0",
-  "description": "Does the word 'coding' bother you as much as it bothers me? With this plugin, you can automatically replace it with an alternative, either from our recommendations or choose your own!",
-  "main": "nocode.js",
+  "description": "Does the word 'coding' bother you as much as it bothers me? With this plugin, you can automatically replace it with the word 'programming' instead.",
+  "main": "./src/nocode.js",
   "scripts": {},
   "keywords": [
     "chrome",
@@ -14,7 +14,7 @@
     "plugin"
   ],
   "author": "Oliver Earl",
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
     "eslint": "^5.16.0"
   }
