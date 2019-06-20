@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "NoCoding",
+    "name": "Stop Coding",
     "description": "Chrome plugin that replaces 'coding' and similar conjugations with 'programming'.",
     "browser_action": {
         "default_icon": {
