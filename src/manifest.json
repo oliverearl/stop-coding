@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "NoCoding",
+    "description": "Replaces the word 'coding' with 'programming'.",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "version": "1.0.0",
+    "content_scrips": [
+        {
+            "matches": "*://*/*",
+            "js": ["nocode.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
