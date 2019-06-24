@@ -1,5 +1,6 @@
 "use strict";
 import "../sass/nocode.scss";
+let manifest = chrome.runtime.getManifest();
 /**
  * StopCoding JavaScript
  * 
@@ -13,6 +14,13 @@ import "../sass/nocode.scss";
  * @author Oliver Earl <oliver@oliverearl.co.uk>
  * @license Unlicense
  */
+
+ const setVersion = function(manifest) {
+     let text = document.getElementById('nocode-version-text');
+     if (text) {
+        text.innerText = `nocode.js v${manifest.version}`;
+     }
+ };
 
 /**
  * Function that carries out the Regex text replacement.
@@ -45,7 +53,7 @@ const replace = function (textNode) {
     value = value.replace(/\bCODES\b/g, "PROGRAMS");
     
     textNode.nodeValue = value;
-}
+};
 
 /**
  * Walk function to Regex text outside of HTML attributes
@@ -84,6 +92,7 @@ const walk = function (node) {
         default:
             break;
     }
-}
+};
 
+setVersion(manifest);
 walk(document.body);
