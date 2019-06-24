@@ -2,22 +2,20 @@
     "manifest_version": 2,
     "name": "Stop Coding",
     "description": "Chrome plugin that replaces 'coding' and similar conjugations with 'programming'.",
+    "default_locale": "en",
+    "author": "Oliver Earl <oliver@oliverearl.co.uk",
     "browser_action": {
-        "default_icon": {
-            "16": "images/16.png",
-            "32": "images/32.png",
-            "48": "images/48.png",
-            "128": "images/128.png"
-        },
+        "default_icon": "images/stop-coding-transparent.png",
         "default_popup": "index.html"
     },
     "icons": {
-        "16": "images/16.png",
-        "32": "images/32.png",
-        "48": "images/48.png",
-        "128": "images/128.png"
+        "16": "images/stop-coding-16.png",
+        "32": "images/stop-coding-32.png",
+        "48": "images/stop-coding-48.png",
+        "64": "images/stop-coding-64.png",
+        "128": "images/stop-coding-128.png"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "content_scripts": 
     [
         {
@@ -25,5 +23,6 @@
             "js": ["nocode.js"],
             "run_at": "document_end"
         }
-    ]
+    ],
+    "offline_enabled": true
 }
