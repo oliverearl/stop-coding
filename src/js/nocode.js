@@ -46,11 +46,6 @@ const replace = function (textNode) {
     value = value.replace(/\bcoded\b/g, "programmed");
     value = value.replace(/\bCoded\b/g, "Programmed");
     value = value.replace(/\bCODED\b/g, "PROGRAMMED");
-
-
-    value = value.replace(/\bcodes\b/g, "programs");
-    value = value.replace(/\bCodes\b/g, "Programs");
-    value = value.replace(/\bCODES\b/g, "PROGRAMS");
     
     textNode.nodeValue = value;
 };
@@ -94,5 +89,5 @@ const walk = function (node) {
     }
 };
 
-setVersion(manifest);
-walk(document.body);
+    setVersion(manifest);
+    walk(document.body);
