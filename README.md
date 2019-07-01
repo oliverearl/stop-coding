@@ -1,4 +1,4 @@
-!['No Coding!'](https://www.oliverearl.co.uk/img/stopcoding.png)
+!['No Coding!'](./publicity/stop-coding-1400x560.png)
 
 ## Introduction
 
