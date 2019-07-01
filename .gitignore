@@ -5,4 +5,5 @@ dist
 .vscode
 dist.crx
 dist.pem
+dist.zip
 stop-coding.pem
