@@ -15,7 +15,7 @@ Upcoming functionaliy is planned, including:
 
 ## Installation from Source
 
-***tl;dr** Clone the repo, `npm install`, `npm run build`, and add the `dist` folder to your browser.*
+***tl;dr** Clone the repo, `npm install`, `npm run build`, and add the `dist` folder to your browser extensions.*
 
 ## Detailed Instructions
 
@@ -24,10 +24,6 @@ Upcoming functionaliy is planned, including:
 - Open a terminal window in the directory of the projcet and run `npm run build` to fire up Webpack. This will minify code and markdown, compile styling, and relocate files as necessary. You'll end up with a `dist` folder upon completion.
 - **In Google Chrome / Chromium**, this can be run by navigating to the Extensions page (chrome://extensions), enabling *Developer Mode* in the top-right of the interface, and clicking the *Load unpacked* button. Navigate to the aforementioned `dist` folder and click on any file. This will load the extension.
 - **In Firefox Developer Edition**, open the Debugging page (about:debugging), click on the *This Firefox* tab on the left side, click the *Load Temporary Add-on* button, and select a file in the `dist` folder that you just compiled. This will load the addon into Firefox.
-
-From here, you can run `npm run build` to fire up Webpack. By default, it will move images from the images folder, compile SCSS and minify all available source code / markup.
-
-If you want to run it in Chrome / Chromium, activate *Developer Mode* and open the unpacked `dist` directory to add the plugin to your browser.
 
 ## Contributing
 Contributions and translations are more than welcome and really appreciated. Please ensure you've read the [Code of Conduct](./CODE_OF_CONDUCT.md) and kindly drop a pull request!
