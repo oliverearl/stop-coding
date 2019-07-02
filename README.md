@@ -6,7 +6,7 @@ Does the word 'coding' bother you as much as it bothers me? With this Chrome plu
 
 You can download the browser extension here:
 - [Google Chrome Web Store](https://chrome.google.com/webstore/detail/stop-coding/jhbaiepgbgcfkackgplaopofiiidkpil)
-- Firefox Marketplace - *pending approval!*
+- [Firefox Marketplace](https://addons.mozilla.org/en-US/firefox/addon/stop-coding/) - *pending approval!*
 
 Upcoming functionaliy is planned, including:
 - Custom word replacements
