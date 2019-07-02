@@ -15,7 +15,7 @@
         "64": "images/stop-coding-64.png",
         "128": "images/stop-coding-128.png"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "permissions": [
         "tabs"
     ],
@@ -27,6 +27,5 @@
             "run_at": "document_end",
             "all_frames": true
         }
-    ],
-    "offline_enabled": true
+    ]
 }

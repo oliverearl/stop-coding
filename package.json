@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "stop-coding",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Does the word 'coding' bother you as much as it bothers me? With this plugin, you can automatically replace it with the word 'programming' instead.",
   "main": "./src/nocode.js",
   "scripts": {

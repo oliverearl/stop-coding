@@ -1,0 +1,6 @@
+- 2019-07-02 - v1.0.5 - Now working under Firefox.
+- 2019-06-26 - v1.0.4 - Bugfixes.
+- 2019-06-24 - v1.0.3 - Stopped modifying the word 'codes' because it gets used in a lot of other contexts. Published to Chrome Marketplace.
+- 2019-06-24 - v1.0.2 - Change in program branding and style.
+- 2019-06-24 - v1.0.1 - Bugfixes.
+- 2019-06-20 - v1.0.0 - Initial release.
