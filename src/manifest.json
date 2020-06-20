@@ -15,9 +15,9 @@
         "64": "images/stop-coding-64.png",
         "128": "images/stop-coding-128.png"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "permissions": [
-        "tabs"
+        "tabs", "*://*/*"
     ],
     "content_scripts": 
     [

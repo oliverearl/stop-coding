@@ -1,16 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "webextensions": true
     },
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
-    "rules": {
-    }
+    "extends": ["eslint:recommended", "prettier"]
 };

@@ -1,9 +1,17 @@
 {
   "private": true,
   "name": "stop-coding",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Does the word 'coding' bother you as much as it bothers me? With this plugin, you can automatically replace it with the word 'programming' instead.",
   "main": "./src/nocode.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliverearl/stop-coding"
+  },
+  "homepage": "https://github.com/oliverearl/stop-coding",
+  "bugs": {
+    "url": "https://github.com/oliverearl/stop-coding/issues"
+  },
   "scripts": {
     "build": "webpack --config webpack.js"
   },
